@@ -1,9 +1,9 @@
 Device.osVersion -startswith ("12") 
 or Device.osVersion -startswith ("11")
 or Device.osVersion -startswith ("10")
-or Device.osVersion -startswith ("9") //Pie
-or Device.osVersion -startswith ("8") //Oreo
-or Device.osVersion -startswith ("7") //Nougat
-or Device.osVersion -startswith ("6") //Marshmallow
-or Device.osVersion -startswith ("5") //Lollipop
-or Device.osVersion -startswith ("4") //Ice Cream Sandwich
+or Device.osVersion -startswith ("9")
+or Device.osVersion -startswith ("8")
+or Device.osVersion -startswith ("7")
+or Device.osVersion -startswith ("6")
+or Device.osVersion -startswith ("5")
+or Device.osVersion -startswith ("4")
