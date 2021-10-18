@@ -6,3 +6,4 @@ or Device.osVersion -startswith ("8") //Oreo
 or Device.osVersion -startswith ("7") //Nougat
 or Device.osVersion -startswith ("6") //Marshmallow
 or Device.osVersion -startswith ("5") //Lollipop
+or Device.osVersion -startswith ("4") //Ice Cream Sandwich
