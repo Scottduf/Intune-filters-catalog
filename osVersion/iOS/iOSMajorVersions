@@ -1,0 +1,7 @@
+Device.osVersion -startswith ("15")
+or device.osVersion -startswith ("14")
+or Device.osVersion -startswith ("13")
+or Device.osVersion -startswith ("12")
+or Device.osVersion -startswith ("11")
+or Device.osVersion -startswith ("10")
+or Device.osVersion -startswith ("9")
