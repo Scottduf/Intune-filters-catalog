@@ -1,0 +1,10 @@
+(device.manufacturer -eq "Dell Inc.")
+and
+((device.model -startsWith "Latitude")
+or (device.model -startsWith "OptiPlex")
+or (device.model -startsWith "Inspiron")
+or (device.model -startsWith "Precision")
+or (device.model -startsWith "XPS")
+or (device.model -startsWith "Vostro")
+or (device.model -startsWith "G")
+or (device.model -startsWith "Latitude"))
