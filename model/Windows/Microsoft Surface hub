@@ -1,0 +1,5 @@
+(device.manufacturer -eq "Microsoft Corporation") 
+and 
+((device.model -eq "Surface Hub 84")
+or (device.model -eq "Surface Hub 55")
+or (device.model -eq "Surface Hub 2S"))
