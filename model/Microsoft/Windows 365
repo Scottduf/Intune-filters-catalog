@@ -1,0 +1,3 @@
+(device.manufacturer -eq "Microsoft Corporation") 
+and 
+((device.model -startswith  "Cloud PC"))
