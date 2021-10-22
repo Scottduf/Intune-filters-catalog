@@ -1,3 +1,2 @@
 (device.manufacturer -eq "Microsoft Corporation") 
-and 
-((device.model -eq "Virtual Machine"))
+and (device.model -eq "Virtual Machine")
