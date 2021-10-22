@@ -1,0 +1,3 @@
+(device.model -startsWith "iPhone")
+or (device.model -startsWith "iPad")
+or (device.model -startsWith "iPod")
