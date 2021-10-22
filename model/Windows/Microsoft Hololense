@@ -1,0 +1,4 @@
+(device.manufacturer -eq "Microsoft Corporation") 
+and 
+((device.model -eq "HoloLens 2") 
+or (device.model -eq "HoloLens"))
