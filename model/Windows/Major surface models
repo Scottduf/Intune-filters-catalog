@@ -1,0 +1,9 @@
+(device.manufacturer -eq "Microsoft Corporation") 
+and 
+((device.model -eq "Surface 2")
+or (device.model -eq "Surface 3")
+or (device.model -startsWith "Surface Book")
+or (device.model -startsWith "Surface Go")
+or (device.model -startsWith "Surface Laptop")
+or (device.model -startsWith "Surface Pro")
+or (device.model -startsWith "Surface Studio"))
