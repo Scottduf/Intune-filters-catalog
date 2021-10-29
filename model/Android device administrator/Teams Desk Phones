@@ -1,4 +1,4 @@
-((device.manufacturer -eq "Audiocodes" -and device.model -in ["C450HD"])
--or (device.manufacturer -eq "Crestron" -and device.model in ["P100","P110"])
--or (device.manufacturer -in ["rockchip","Yealink"] -and device.model -in ["T55","T55A","T56","T56A","T58","T58A","VP59","CP960","UC-PHONE-T","UC-PHONE-T-PLUS"])
+((device.manufacturer -eq "Audiocodes" -and device.model -in ["C450HD","C450HD"])
+-or (device.manufacturer -eq "Crestron" -and device.model in ["Crestron-Touchpanel-770-T","Crestron-Touchpanel-1070-T","UC-2","UC-P8","P100","P110"])
+-or (device.manufacturer -in ["rockchip","Yealink"] -and device.model -in ["T55","T55A","T56","T56A","T58","T58A","VP59","CP960","UC-PHONE-T","UC-PHONE-T-PLUS","CCX400","MP56"])
 -or (device.manufacturer -eq "Polycom" -and device.model -in ["Trio8500","Trio8800"]))
